@@ -13,7 +13,7 @@
 - **6 档经典名胆调音 & 10 段录音室 EQ**：支持 `Bypass` 直通与 `300B`、`KT88`、`ECC83`、`2A3`、`EL34` 偶次谐波毫秒热切换；配备 64-bit 浮点 IIR `10 段 EQ`（`31.25Hz ~ 16kHz`，`-12.0dB ~ +12.0dB`）与智能防削波余量控制。
 - **双端视觉控台与 4 款美学主题**：提供黑曜石、黑胡桃、暖橡木、银拉丝四套界面风格；兼备 PC 专业三栏控台（1024 点实时 FFT 频谱）与手机触控端（麦景图双通道 RMS 电平表与黑胶交互）。
 - **全场景音源融合与双向投流**：支持本地盘/移动硬盘即插即扫、局域网 `SMB` / `NFS` 自动发现挂载与拖拽传歌、5 大云盘（百度 / 阿里云盘 / 夸克 / 115 / WebDAV）直出、网易云无损直通、`AirPlay` / `DLNA` 双向投流，以及「音乐播不停」无感续航。
-- **发烧纯净模式 & 双系统架构**：支持一键切换至发烧极简纯净模式（关闭常驻网盘与流媒体服务释放 `200MB+` 内存）、USB DAC 热插拔自动识别、硬件防爆音开机静音守护，以及达菲（Daphile）双系统互切与 A/B 双槽位无感升级。
+- **发烧纯净模式 & 安全可靠架构**：支持一键切换至发烧极简纯净模式（关闭常驻网盘与流媒体服务释放 `200MB+` 内存）、USB DAC 热插拔自动识别、硬件防爆音开机静音守护，以及纯净单系统直装、GitHub 一键在线 OTA 升级与 A/B 双槽位保护。
 
 ---
 
@@ -26,16 +26,38 @@
 
 ---
 
+## 最新版本直链下载（v7.2.7 Pure）
+
+> `v7.2.7` 国际化纯净发行版仅包含纯正 QMS 自主系统，安装完成后即自带 **GitHub 官方源一键在线 OTA 升级** 能力，后续可在 Web 控制台 **系统设置 → 固件升级** 直接热更新。
+
+### 1. 全新装机 ISO 镜像（Pure Single-OS）
+
+| 版本 | 内核 | 大小 | 下载地址 | SHA-256 校验 |
+| :--- | :--- | :--- | :--- | :--- |
+| **QMS-RT 纯血实时版** | `6.6.142-qms-rt` (`PREEMPT_RT`) | 531 MiB | [QMS-Audio-RT-v7.2.7-Pure-x86_64.iso](https://github.com/cqtvro/qms-download/releases/download/v7.2.7/QMS-Audio-RT-v7.2.7-Pure-x86_64.iso) ([.sha256](https://github.com/cqtvro/qms-download/releases/download/v7.2.7/QMS-Audio-RT-v7.2.7-Pure-x86_64.iso.sha256)) | `f620bddd527b31b93a7bd68a0ba09af7240afc61aaacafe3278a35fd5db4b163` |
+| **QMS Pro 商业标准版** | `6.6.142-0-lts` (`LTS`) | 597 MiB | [QMS-Audio-PRO-v7.2.7-Pure-x86_64.iso](https://github.com/cqtvro/qms-download/releases/download/v7.2.7/QMS-Audio-PRO-v7.2.7-Pure-x86_64.iso) ([.sha256](https://github.com/cqtvro/qms-download/releases/download/v7.2.7/QMS-Audio-PRO-v7.2.7-Pure-x86_64.iso.sha256)) | `b4b636b61709082c235ba3f22b4a29405cd7e1952204a0ff18b90907095545e2` |
+
+### 2. 已有设备升级包（`.qpkg`）
+
+| 版本 / 适用范围 | 大小 | 下载地址 | SHA-256 校验 |
+| :--- | :--- | :--- | :--- |
+| **RT 轻量 OTA 包**（`v7.1.0+`） | 9.05 MB | [QMS-Upgrade-v7.2.7-Lite-RT.qpkg](https://github.com/cqtvro/qms-download/releases/download/v7.2.7/QMS-Upgrade-v7.2.7-Lite-RT.qpkg) | `6534eb5a0da74eb09646dac1c601f96b23a9fb0c08a5b16e52146614dfcb5a8f` |
+| **PRO 轻量 OTA 包**（`v7.1.0+`） | 6.36 MB | [QMS-Upgrade-v7.2.7-Lite-PRO.qpkg](https://github.com/cqtvro/qms-download/releases/download/v7.2.7/QMS-Upgrade-v7.2.7-Lite-PRO.qpkg) | `caf6c1e3ac7d8ddf037c7151c360f726231eaa52846ca09fa9a75a65464e14a5` |
+| **RT 全量跨代包**（全版本通用） | 263.51 MB | [QMS-Upgrade-v7.2.7-RT.qpkg](https://github.com/cqtvro/qms-download/releases/download/v7.2.7/QMS-Upgrade-v7.2.7-RT.qpkg) | `40ab419f5b0eacf1d4ea6cb94fa2d888ee78904ef0fb3237c9004468a5dbc445` |
+| **PRO 全量跨代包**（全版本通用） | 263.51 MB | [QMS-Upgrade-v7.2.7-PRO.qpkg](https://github.com/cqtvro/qms-download/releases/download/v7.2.7/QMS-Upgrade-v7.2.7-PRO.qpkg) | `bf5bc69db004d32317b3def29c7aaa4cfd83e5c96551a06a811640e3dc1c329d` |
+
+---
+
 ## 安装与升级指南
 
 ### 1. 全新装机（`.iso` 镜像）
-1. 在 [Releases](https://github.com/cqtvro/qms-download/releases/latest) 下载对应版本的 `.iso` 镜像文件。
-2. 使用 **Rufus** 或 **balenaEtcher** 将 `.iso` 写入 U 盘。
-3. 将工控机 / Mini PC / 电脑主板设置为 UEFI 或标准 USB 启动，进入系统后使用同局域网浏览器打开控制台 IP，即可直接体验或执行 **一键安装至机内硬盘**。
+1. 在上方表格或 [Releases](https://github.com/cqtvro/qms-download/releases/latest) 下载对应版本的 `.iso` 镜像文件。
+2. 使用 **Rufus**（建议选择 **DD 镜像模式**）或 **balenaEtcher** 将 `.iso` 写入 U 盘。
+3. 在主板 BIOS 中关闭 **Secure Boot（安全启动）**，设置为 UEFI USB 启动；进入系统后使用同局域网浏览器打开屏幕显示的 IP，即可在 Web 控制台点击 **一键安装至机内硬盘**（安装完毕拔掉 U 盘重启，即可直接使用 GitHub 一键在线 OTA）。
 
 ### 2. 系统平滑升级（`.qpkg` 升级包）
-- 已有设备无需重装系统或重新配置曲库与授权。
-- 在 [Releases](https://github.com/cqtvro/qms-download/releases/latest) 下载对应版本的 `.qpkg` 升级包后，进入 QMS Web 控制台 **系统设置 → 固件升级** 直接上传即可完成升级（支持 A/B 安全双槽位保护）。
+- 已有 `v7.2.7` / `v7.2.6+` 设备可在 Web 控制台 **系统设置 → 固件升级** 直接点击 **一键在线 OTA 升级**，系统会自动选择适配的轻量包或全量包并校验 SHA-256。
+- 也可手动下载对应版本的 `.qpkg` 升级包上传升级（无需重装系统或重新配置曲库与授权，支持 A/B 安全双槽位保护）。
 
 ### 3. 文件完整性校验（`.sha256`）
 下载大文件后，建议核对与同目录 `.sha256` 文件是否一致：
