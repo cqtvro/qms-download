@@ -26,9 +26,9 @@
 
 ---
 
-## 最新版本直链下载（v7.2.7 Pure）
+## 最新版本直链下载（ISO：`v7.2.7 Pure` / 固件升级包：`v7.2.8`）
 
-> `v7.2.7` 国际化纯净发行版仅包含纯正 QMS 自主系统，安装完成后即自带 **GitHub 官方源一键在线 OTA 升级** 能力，后续可在 Web 控制台 **系统设置 → 固件升级** 直接热更新。
+> 国际化纯净发行版仅包含纯正 QMS 自主系统，安装完成后即自带 **GitHub 官方源一键在线 OTA 升级** 能力：装完 `v7.2.7 Pure` 镜像开机后，即可直接在 Web 控制台 **系统设置 → 固件升级** 一键热升级至最新 `v7.2.8`（修复安卓网易云 DLNA 投流兼容）。
 
 ### 1. 全新装机 ISO 镜像（Pure Single-OS）
 
@@ -37,14 +37,14 @@
 | **QMS-RT 纯血实时版** | `6.6.142-qms-rt` (`PREEMPT_RT`) | 531 MiB | [QMS-Audio-RT-v7.2.7-Pure-x86_64.iso](https://github.com/cqtvro/qms-download/releases/download/v7.2.7/QMS-Audio-RT-v7.2.7-Pure-x86_64.iso) ([.sha256](https://github.com/cqtvro/qms-download/releases/download/v7.2.7/QMS-Audio-RT-v7.2.7-Pure-x86_64.iso.sha256)) | `f620bddd527b31b93a7bd68a0ba09af7240afc61aaacafe3278a35fd5db4b163` |
 | **QMS Pro 商业标准版** | `6.6.142-0-lts` (`LTS`) | 597 MiB | [QMS-Audio-PRO-v7.2.7-Pure-x86_64.iso](https://github.com/cqtvro/qms-download/releases/download/v7.2.7/QMS-Audio-PRO-v7.2.7-Pure-x86_64.iso) ([.sha256](https://github.com/cqtvro/qms-download/releases/download/v7.2.7/QMS-Audio-PRO-v7.2.7-Pure-x86_64.iso.sha256)) | `b4b636b61709082c235ba3f22b4a29405cd7e1952204a0ff18b90907095545e2` |
 
-### 2. 已有设备升级包（`.qpkg`）
+### 2. 已有设备升级包（`v7.2.8` `.qpkg`）
 
 | 版本 / 适用范围 | 大小 | 下载地址 | SHA-256 校验 |
 | :--- | :--- | :--- | :--- |
-| **RT 轻量 OTA 包**（`v7.1.0+`） | 9.05 MB | [QMS-Upgrade-v7.2.7-Lite-RT.qpkg](https://github.com/cqtvro/qms-download/releases/download/v7.2.7/QMS-Upgrade-v7.2.7-Lite-RT.qpkg) | `6534eb5a0da74eb09646dac1c601f96b23a9fb0c08a5b16e52146614dfcb5a8f` |
-| **PRO 轻量 OTA 包**（`v7.1.0+`） | 6.36 MB | [QMS-Upgrade-v7.2.7-Lite-PRO.qpkg](https://github.com/cqtvro/qms-download/releases/download/v7.2.7/QMS-Upgrade-v7.2.7-Lite-PRO.qpkg) | `caf6c1e3ac7d8ddf037c7151c360f726231eaa52846ca09fa9a75a65464e14a5` |
-| **RT 全量跨代包**（全版本通用） | 263.51 MB | [QMS-Upgrade-v7.2.7-RT.qpkg](https://github.com/cqtvro/qms-download/releases/download/v7.2.7/QMS-Upgrade-v7.2.7-RT.qpkg) | `40ab419f5b0eacf1d4ea6cb94fa2d888ee78904ef0fb3237c9004468a5dbc445` |
-| **PRO 全量跨代包**（全版本通用） | 263.51 MB | [QMS-Upgrade-v7.2.7-PRO.qpkg](https://github.com/cqtvro/qms-download/releases/download/v7.2.7/QMS-Upgrade-v7.2.7-PRO.qpkg) | `bf5bc69db004d32317b3def29c7aaa4cfd83e5c96551a06a811640e3dc1c329d` |
+| **RT 轻量 OTA 包**（`v7.1.0+`） | 9.08 MB | [QMS-Upgrade-v7.2.8-Lite-RT.qpkg](https://github.com/cqtvro/qms-download/releases/download/v7.2.8/QMS-Upgrade-v7.2.8-Lite-RT.qpkg) | `4ce5254bbaa6a0926a553609cea60d98547f8082e00ba002ccb9e6da732f1007` |
+| **PRO 轻量 OTA 包**（`v7.1.0+`） | 6.38 MB | [QMS-Upgrade-v7.2.8-Lite-PRO.qpkg](https://github.com/cqtvro/qms-download/releases/download/v7.2.8/QMS-Upgrade-v7.2.8-Lite-PRO.qpkg) | `e2f9dbed46de296b01f817d94e549cfc9a30ea48a09b98241b01f939fbe3e782` |
+| **RT 全量跨代包**（全版本通用） | 263.54 MB | [QMS-Upgrade-v7.2.8-RT.qpkg](https://github.com/cqtvro/qms-download/releases/download/v7.2.8/QMS-Upgrade-v7.2.8-RT.qpkg) | `1718cfc1b939aec0ba90100eb3f2e08e8fc4aafc5a2b45d845448f5b64b3f11b` |
+| **PRO 全量跨代包**（全版本通用） | 263.54 MB | [QMS-Upgrade-v7.2.8-PRO.qpkg](https://github.com/cqtvro/qms-download/releases/download/v7.2.8/QMS-Upgrade-v7.2.8-PRO.qpkg) | `84929ee92a968dc360022bfda1fe0be81ba807024da03ce7b08c87f6273db282` |
 
 ---
 
