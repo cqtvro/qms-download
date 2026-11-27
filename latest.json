@@ -1,45 +1,31 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-26 21:25:52",
+  "updated_at": "2026-11-27 16:54:46",
   "repo": "cqtvro/qms-download",
   "release_page": "https://github.com/cqtvro/qms-download/releases/latest",
   "pro": {
-    "version": "v7.2.8-PRO",
-    "clean_version": "7.2.8",
+    "version": "v7.2.9-PRO",
+    "clean_version": "7.2.9",
     "min_base_version": "7.1.0",
-    "changelog": "v7.2.8: 支持 7.1.0+ 轻量级热升级包 (约10MB) 与 GitHub 官方源一键在线 OTA；修复 QQ音乐/网易云 DLNA 投流兼容、Mac mini RT Wi-Fi 驱动与大容量硬盘挂载自愈。",
-    "full": {
-      "filename": "QMS-Upgrade-v7.2.8-PRO.qpkg",
-      "url": "https://github.com/cqtvro/qms-download/releases/download/v7.2.8/QMS-Upgrade-v7.2.8-PRO.qpkg",
-      "sha256": "84929ee92a968dc360022bfda1fe0be81ba807024da03ce7b08c87f6273db282",
-      "size_bytes": 276344201,
-      "size_mb": 263.54
-    },
+    "changelog": "v7.2.9: 支持 7.1.0+ 轻量级热升级包 (约10MB) 与 GitHub 官方源一键在线 OTA；修复 QQ音乐/网易云 DLNA 投流兼容、Mac mini RT Wi-Fi 驱动、RAM 内存预读防卡顿与大容量硬盘挂载自愈。",
     "lite": {
-      "filename": "QMS-Upgrade-v7.2.8-Lite-PRO.qpkg",
-      "url": "https://github.com/cqtvro/qms-download/releases/download/v7.2.8/QMS-Upgrade-v7.2.8-Lite-PRO.qpkg",
-      "sha256": "e2f9dbed46de296b01f817d94e549cfc9a30ea48a09b98241b01f939fbe3e782",
-      "size_bytes": 6692681,
+      "filename": "QMS-Upgrade-v7.2.9-Lite-PRO.qpkg",
+      "url": "https://github.com/cqtvro/qms-download/releases/download/v7.2.9/QMS-Upgrade-v7.2.9-Lite-PRO.qpkg",
+      "sha256": "75a635a6d6868cdd9f38c9de89341f7a0955980c8c074ce522dc4ab9ba8fc2f7",
+      "size_bytes": 6694968,
       "size_mb": 6.38
     }
   },
   "rt": {
-    "version": "v7.2.8-RT",
-    "clean_version": "7.2.8",
+    "version": "v7.2.9-RT",
+    "clean_version": "7.2.9",
     "min_base_version": "7.1.0",
-    "changelog": "v7.2.8: 支持 7.1.0+ 轻量级热升级包 (约10MB) 与 GitHub 官方源一键在线 OTA；修复 QQ音乐/网易云 DLNA 投流兼容、Mac mini RT Wi-Fi 驱动与大容量硬盘挂载自愈。",
-    "full": {
-      "filename": "QMS-Upgrade-v7.2.8-RT.qpkg",
-      "url": "https://github.com/cqtvro/qms-download/releases/download/v7.2.8/QMS-Upgrade-v7.2.8-RT.qpkg",
-      "sha256": "1718cfc1b939aec0ba90100eb3f2e08e8fc4aafc5a2b45d845448f5b64b3f11b",
-      "size_bytes": 276344202,
-      "size_mb": 263.54
-    },
+    "changelog": "v7.2.9: 支持 7.1.0+ 轻量级热升级包 (约10MB) 与 GitHub 官方源一键在线 OTA；修复 QQ音乐/网易云 DLNA 投流兼容、Mac mini RT Wi-Fi 驱动、RAM 内存预读防卡顿与大容量硬盘挂载自愈。",
     "lite": {
-      "filename": "QMS-Upgrade-v7.2.8-Lite-RT.qpkg",
-      "url": "https://github.com/cqtvro/qms-download/releases/download/v7.2.8/QMS-Upgrade-v7.2.8-Lite-RT.qpkg",
-      "sha256": "4ce5254bbaa6a0926a553609cea60d98547f8082e00ba002ccb9e6da732f1007",
-      "size_bytes": 9520228,
+      "filename": "QMS-Upgrade-v7.2.9-Lite-RT.qpkg",
+      "url": "https://github.com/cqtvro/qms-download/releases/download/v7.2.9/QMS-Upgrade-v7.2.9-Lite-RT.qpkg",
+      "sha256": "b1b420249710a7d7ea57da550f163684d11b2be91e97aca45cffcc6d9d7d36a6",
+      "size_bytes": 9521365,
       "size_mb": 9.08
     }
   }
